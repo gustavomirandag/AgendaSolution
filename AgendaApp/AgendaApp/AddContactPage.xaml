@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaApp.AddContactPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="EntryName" Placeholder="Type the contact name"/>
+            <Entry x:Name="EntryPhone" Placeholder="Type the phone number"/>
+            <Entry x:Name="EntryEmail" Placeholder="Type the contact email"/>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="ButtonCreate" Text="Create" Clicked="ButtonCreate_Clicked"/>
+                <Button x:Name="ButtonCancel" Text="Cancel" Clicked="ButtonCancel_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

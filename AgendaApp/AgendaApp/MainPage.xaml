@@ -5,10 +5,9 @@
              x:Class="AgendaApp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="ButtonAddContact" Text="Add Contact" Clicked="ButtonAddContact_Clicked"/>
+        <StackLayout x:Name="StackLayoutContactsList" Spacing="20">
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
